@@ -1,14 +1,39 @@
 # Gary's Notes on hacking OVA
 
+by @garyfeng
+
+----
+
+# To-dos
+
+- [X] HTML5/javascript only
+- [x] Can load arbitrary videos from local [untested], URLs [yes], and youtube [yes]
+- [x] Support time-based annotation [yes] with flexible interface [yes, showing richtext editor]
+- [x] Annotations goes to a separate data server [yes, using any open annotation store]
+- [x] Open source [yes, including the annotation store server side]
+
+- [ ] Plan now to integrate this with the AMTurk workflow, e.g., generating unique URLs that automatically encode the video source and turker id
+- [ ] Supporting thin-slicing: e.g. using https://github.com/cladera/videojs-offset
+- [ ] Set up our own Annotation Store server: https://github.com/openannotation/annotator/wiki#backend-stores
+- [ ] Replace the richtext editor with a websurvey like interface for quick rating
+- [ ] tablet support [not yet due to a bug in videoJS]
+
+
+## 2015-11-21: Creating the project page
+
+Took some pains to create the http://garyfeng.github.io site.
+
+Also added the following testing link: http://garyfeng.github.io/videoAnn/index.html
+
 ## 2015-11-20: Making `youtube.html`
 
-Made an example for youtube annotation. From `demo.html`, got rid off the other videos, 
+Made an example for youtube annotation. From `demo.html`, got rid off the other videos,
 and replaced the video with a presentation video.
 
-The interface works well enough, although for youbute video player the coding interface 
+The interface works well enough, although for youbute video player the coding interface
 doesn't automatically show up with mouse over; you have to click on the video.
 
-Also the `o` key is supposed to insert an annotation. It sometimes work and sometimes 
+Also the `o` key is supposed to insert an annotation. It sometimes work and sometimes
 doesn't. Not sure why.
 
 - [ ] Need to simplify the rich text editor; no rich text, auto focus without clicking on it.
