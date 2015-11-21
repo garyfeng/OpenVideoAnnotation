@@ -5,12 +5,13 @@
     <title>Youtube annotation test</title>
 
     <!-- Annotator -->
-	<script src="lib/jquery-1.11.3.min.js"></script>
-	<script src="lib/annotator-full.min.js"></script>
-	<link rel="stylesheet" href="lib/annotator.min.css">
+    <!-- Annotator -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="http://assets.annotateit.org/annotator/v1.2.7/annotator-full.min.js"></script>
+	<link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
 
 	<!--video-js-->
-	<link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+	<link href="http://vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
 	<script src="lib/video-js/video.min.js"></script>
 
 	<!--Youtube Pluging-->
@@ -34,10 +35,12 @@
 	<link href="lib/richText-annotator.min.css" rel="stylesheet">
 
 	<!--OpenVideoAnnotations Pluging-->
+  <!-- garyfeng: modified ova.js to show anno in colsole -->
 	<script src="src/ova.js"></script>
 	<link href="build/ova.min.css" rel="stylesheet">
 
 	<!--Demo CSS-->
+  <!-- garyfeng: using a new css -->
 	<link href="youtube.css" rel="stylesheet">
   </head>
 
@@ -54,7 +57,7 @@
     </div>
 
     <div id="airlock">
-    	<video id="vid3" class="video-js vjs-default-skin" controls preload="none" width="640" height="360"
+    	<video id="youtubeVid" class="video-js vjs-default-skin" controls preload="none" width="640" height="360"
     	data-setup='{techOrder: ["html5","flash","youtube"]}'>
     		<source src="https://www.youtube.com/watch?v=7aOByepu9_4" type="video/youtube">
     	</video>
