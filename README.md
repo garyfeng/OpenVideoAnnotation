@@ -22,6 +22,7 @@ by @garyfeng
 
 Or should I simply use AnnotateIt instead? See http://docs.annotatorjs.org/en/v1.2.x/authentication.html
 
+
 ## 2015-11-21: Creating the project page
 
 Took some pains to create the http://garyfeng.github.io site.
@@ -44,6 +45,8 @@ doesn't. Not sure why.
 - [ ] Keyboard shortcuts for quick coding?
 
 ## 2015-11-20: Annotation data structure
+
+**update:** see http://docs.annotatorjs.org/en/v1.2.x/annotation-format.html for official doc
 
 Added the following line in `src\ova.js` line `528`
 
