@@ -18,6 +18,9 @@ by @garyfeng
 - [ ] Replace the richtext editor with a websurvey like interface for quick rating
 - [ ] tablet support [not yet due to a bug in videoJS]
 
+## 2015-11-21: do I need an annotation store server
+
+Or should I simply use AnnotateIt instead? See http://docs.annotatorjs.org/en/v1.2.x/authentication.html
 
 ## 2015-11-21: Creating the project page
 
